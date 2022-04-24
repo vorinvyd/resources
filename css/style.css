@@ -88,6 +88,10 @@ section {
 	background: var(--dark-color);
 	color: var(--dark-text-color);
 }
+.donate {
+	background: var(--donate-color);
+	color: var(--donate-text-color);
+}
 section > p {
 	width: 75%;
     padding-right: 5em;
@@ -116,14 +120,14 @@ strong::after{
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 40px 50px;
-	width: 35%
+	width: 75%
 }
 .feature p {
 	width: 25em;
 	font-size: 1.2em;
 }
 .feature img {
-    width: 5em;
+    width: 20em;
 }
 hr {
 	width: 50%;
@@ -164,16 +168,6 @@ hr {
     text-align: center;
 	width: 18em;
 	border-radius: 1em;
-}
-.staff-card2 h2 {
-	line-height: 0;
-	font-family: Poppins,sans-serif;
-	color: #fff;
-}
-.staff-card2 h3 {
-	line-height: 0;
-	font-family: Poppins,sans-serif;
-	color: #fff;
 }
 @media (max-width: 1200px) {
   .staff-card2 {
